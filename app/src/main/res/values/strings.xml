@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SaifApp5</string>
+    <string name="sign_up_layout">Создайте аккаунт</string>
+    <string name="sign_in_layout">Добро пожаловать!</string>
+    <string name="name">Имя</string>
+    <string name="email">Емайл</string>
+    <string name="password">Пароль</string>
+    <string name="confirm">Повтор Пароля</string>
+    <string name="sign_up">Зарегестрироваться</string>
+    <string name="back_text_layout">Вернуться назад</string>
+    <string name="forward_text_layout">Войти в аккаунт</string>
+    <string name="alreadyRegistry">Уже есть аккаунт?</string>
+    <string name="Go_Registry">Нет аккаунта?</string>
+    <string name="checkboxtext">Запомнить данные</string>
+    <string name="ListenLayout">Изучение Aнглийского Aлфавита</string>
+    <string name="ListenGoBack">Решили отказаться?</string>
+    <string name="GoBackListen">Закончить урок</string>
+    <string name="ButGoTest">Начать тест</string>
+    <string name="ListenTestLayout">Тест\n Изучение Aнглийского Aлфавита</string>
+    <string name="Question">Вопрос</string>
+    <string name="AnsverA">A</string>
+    <string name="AnsverB">B</string>
+    <string name="AnsverC">C</string>
+    <string name="butBackListen">Закончить тест</string>
+    <string name="FinishTestLayout">Вы закончили тест! Поздравляем!</string>
+    <string name="FinishScore">Ваш результат: </string>
+
+</resources>
