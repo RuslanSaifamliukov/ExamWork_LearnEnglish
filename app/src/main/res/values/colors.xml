@@ -5,5 +5,7 @@
     <color name="transparent">#00000000</color>
     <color name="blue">#303F77</color>
     <color name="textblack">#48444E</color>
+    <color name="textred">#E30613</color>
+
 
 </resources>

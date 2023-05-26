@@ -8,6 +8,31 @@
     android:background="@color/transparent"
     tools:context=".ListenActivity">
 
+    <ImageView
+        android:id="@+id/personListen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/ic_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/NameListen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:paddingEnd="30dp"
+        android:textColor="@color/blue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/ListenText"
         android:layout_width="210dp"
@@ -86,7 +111,7 @@
         android:onClick="ForwardRegistration"
         android:text="@string/GoBackListen"
         android:textAllCaps="false"
-        android:textColor="@color/blue"
+        android:textColor="@color/textred"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
