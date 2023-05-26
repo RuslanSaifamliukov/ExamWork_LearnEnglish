@@ -52,7 +52,7 @@ class RegistrActivity : AppCompatActivity() {
             -> Toast.makeText(this, "Пароли не совпадают!", Toast.LENGTH_SHORT).show()
 
             UserCheckStatus.WrongEmailOrPassword
-            -> throw IllegalArgumentException("При регистрации не может быть неверный пароль")
+            -> throw IllegalArgumentException("Ошибка регистраций!")
 
             UserCheckStatus.OK -> {
                 userService.saveUser(mailString, passString, nameString, lnameString)

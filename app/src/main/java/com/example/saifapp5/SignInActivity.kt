@@ -45,10 +45,10 @@ class SignInActivity : AppCompatActivity() {
             -> Toast.makeText(this, "E-mail введён не корректно!", Toast.LENGTH_SHORT).show()
 
             UserCheckStatus.WrongEmailOrPassword
-            -> Toast.makeText(this, "Неверный Емайл или Пароль", Toast.LENGTH_SHORT).show()
+            -> Toast.makeText(this, "Неверный Емайл или Пароль!", Toast.LENGTH_SHORT).show()
 
             UserCheckStatus.PasswordsNotEqual
-            -> throw IllegalArgumentException("При входе не может быть разных паролей")
+            -> throw IllegalArgumentException("Ошибка Входа!")
 
             UserCheckStatus.OK -> {
                 if (remember.isChecked)
