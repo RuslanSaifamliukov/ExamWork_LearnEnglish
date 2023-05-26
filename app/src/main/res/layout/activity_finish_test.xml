@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/transparent"
-    tools:context=".ListenTestActivity">
+    tools:context=".FinishTestActivity">
 
     <TextView
         android:id="@+id/FinishTestText"
-        android:layout_width="210dp"
-        android:layout_height="150dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
         android:layout_marginTop="25dp"
         android:text="@string/FinishTestLayout"
         android:textAlignment="center"
@@ -27,17 +27,32 @@
         android:id="@+id/ImageFinishSuccses"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:layout_marginTop="150dp"
         android:src="@drawable/finishico"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/FinishTestText" />
+
+    <TextView
+        android:id="@+id/FinishName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageFinishSuccses"
+        app:layout_constraintEnd_toEndOf="@+id/ImageFinishSuccses"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/ImageFinishSuccses"
+        app:layout_constraintTop_toTopOf="@+id/ImageFinishSuccses"
+        app:layout_constraintVertical_bias="0.309" />
 
     <ImageView
         android:id="@+id/LogoLayouteFinishTest"
         android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="450dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="420dp"
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,6 +70,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ImageFinishSuccses" />
+
+
+    <TextView
+        android:id="@+id/butBackListenLayout"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="FinishGoBack"
+        android:text="@string/FinishGoBack"
+        android:textAllCaps="false"
+        android:textColor="@color/textred"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogoLayouteFinishTest" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

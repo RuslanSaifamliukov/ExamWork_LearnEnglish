@@ -24,5 +24,6 @@
     <string name="butBackListen">Закончить тест</string>
     <string name="FinishTestLayout">Вы закончили тест! Поздравляем!</string>
     <string name="FinishScore">Ваш результат: </string>
+    <string name="FinishGoBack">Закончить</string>
 
 </resources>
